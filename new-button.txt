@@ -1,0 +1,44 @@
+css
+===================
+
+@import "https://fonts.googleapis.com/css?family=Courgette";
+.btn-group{margin-left:0}
+li.ios-btn a,li.android-btn a{background-repeat:no-repeat;background-position:left top;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;display:block;width:200px;height:60px;margin-right:30px;color:#fff;line-height:60px;font-size:15px;text-indent:-9999px;margin-top:10px}
+li.ios-btn a{background-image:url(../img/btn-app-store.png);background-color:#fff}
+li.android-btn a{background-image:url(../img/btn-app-store1.png);background-color:#e0271d}
+.note{position:relative;color:#317b5e}
+.p-vv,.p-vv1{padding:10px 0;color:#fff;font-size:14px;font-family:'Courgette',cursive;letter-spacing:.4px}
+.p-vv1{color: #193b58;}
+.vv-card{font-size:13px;padding-right:2px}
+
+Responsive css
+=======================
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2){.btn-group{margin-left:0}li.ios-btn a,li.android-btn a{width:122px;height:36px;background-size:123px;margin-right:0;line-height:42px}}@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2){.btn-group{margin-left:0}li.ios-btn a,li.android-btn a{width:122px;height:36px;background-size:123px;margin-right:0;line-height:42px}}@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3){.btn-group{margin-left:0}li.ios-btn a,li.android-btn a{width:122px;height:36px;background-size:123px;margin-right:0;line-height:42px}}@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1){.btn-group{margin-left:0}li.ios-btn a,li.android-btn a{width:122px;height:36px;background-size:123px;margin-right:0;line-height:42px}}
+
+
+html
+=========================
+<div class="text-center">
+  <div class="download-area">
+    <ul class="btn-group list-inline">
+      <li class="ios-btn"> <a href="http://clickfortranslation.com/Translation-Quote.php">Free Quote</a> </li>
+      <li class="android-btn"> <a href="http://clickfortranslation.com/Upload-Files.php">Upload Now</a> </li>
+    </ul>
+    <div class="note text-center">
+      <p class="p-vv"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;No Sign Up &nbsp; &nbsp; <i class="fa fa-credit-card vv-card" aria-hidden="true"></i>&nbsp;No Credit Card</p>
+    </div>
+  </div>
+</div>

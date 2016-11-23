@@ -1,0 +1,6 @@
+http://js.nicdn.de/bootstrap/formhelpers/docs/country.html
+
+<input type="text" class="form-control pull-right" id="datepicker">
+
+
+

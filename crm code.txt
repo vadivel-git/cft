@@ -1,0 +1,59 @@
+Hi,
+   Please do the following changes in Quote and Upload page:
+   Translation Quote Page:
+   Replace this content with the below content:
+        $redirect_file_content = '';
+        $quoteformUrl = 'http://vananhost.com/vanancrm/get-quote-form.php?service_type=translation';
+        echo $redirect_file_content = file_get_contents($quoteformUrl);
+        $CRMFORM ="1";
+
+
+       $post = http_build_query(
+            array(
+                'service_type' => 'translation',
+                'servervariable'=>$_SERVER,
+                'cookievariable' => $_COOKIE,
+                'requestvariable' => $_REQUEST
+              )
+        );
+        $ch = curl_init('http://vananhost.com/vanancrm/get-quote-form.php');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        $response = curl_exec($ch);
+        curl_close($ch);
+        echo $response;
+        $CRMFORM ="1";
+
+
+
+Translation Upload Page:
+        Replace this content with the below content:
+        $redirect_file_content = '';
+        $quoteformUrl = 'http://vananhost.com/vanancrm/get-quote-form.php?service_type=translation';
+        echo $redirect_file_content = file_get_contents($quoteformUrl);
+        $CRMFORM ="1";
+       
+        $post = http_build_query(
+            array(
+                'service_type' => 'translation',
+                'page' => 'upload',
+                'servervariable'=>$_SERVER,
+                'cookievariable' => $_COOKIE,
+                'requestvariable' => $_REQUEST
+              )
+        );
+        $ch = curl_init('http://vananhost.com/vanancrm/get-quote-form.php');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        $response = curl_exec($ch);
+        curl_close($ch);
+        echo $response;
+        $CRMFORM ="1";
+
+For other services, Replace the service type 'service_type' => 'translation',  based on the services
+ Eg:      Transcription : 'service_type' => 'transcription',
+             Typing : 'service_type' => 'typing',
+             captioning: 'service_type' => 'captioning',
+             voiceover: 'service_type' => 'voiceover', 

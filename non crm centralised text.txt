@@ -1,0 +1,27 @@
+ <?php
+
+        echo $redirect_file_content = file_get_contents('http://todaytranscription.com/vanan-centralized/Transcription_Career.php?sitename='.$_SERVER['HTTP_HOST']);                
+
+?>
+
+ <?php
+
+        echo $redirect_file_content = file_get_contents('http://vananhost.com/vanancrm_ui/quote_form_essaywritting.php');                
+
+?>
+
+
+
+
+
+http://todaytranscription.com/vanan-centralized/Translation-Quote.php
+http://todaytranscription.com/vanan-centralized/Transcription-Quote.php
+http://todaytranscription.com/vanan-centralized/Typing-Quote.php
+http://todaytranscription.com/vanan-centralized/Captioning-Quote.php
+http://todaytranscription.com/vanan-centralized/Translation_Careers.php
+http://todaytranscription.com/vanan-centralized/Transcription_Career.php
+http://todaytranscription.com/vanan-centralized/Captioning_Career.php
+http://todaytranscription.com/vanan-centralized/form_contactus.php
+http://todaytranscription.com/vanan-centralized/Typing_Career.php
+http://todaytranscription.com/vanan-centralized/Video_Services_Career.php
+http://todaytranscription.com/vanan-centralized/Voiceover_Career.php 

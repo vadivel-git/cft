@@ -1,0 +1,3 @@
+pages - fa fa-files-o
+formate - fa fa-file-o
+service - fa fa-cog

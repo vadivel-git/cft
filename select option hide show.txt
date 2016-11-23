@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#qservice").change(function(){
+        $(this).find("option:selected").each(function(){
+            if($(this).attr("value")=="Audio"){
+               
+                $(".audio").show();
+            }
+           
+            else{
+                $(".audio").hide();
+            }
+        });
+    }).change();
+});

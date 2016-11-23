@@ -1,0 +1,6 @@
+$('#myselect').change(function() {
+    var opval = $(this).val();
+    if(opval=="secondoption"){
+        $('#myModal').modal("show");
+    }
+});

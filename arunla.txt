@@ -1,0 +1,15 @@
+safari font smoothing css
+===================================
+body{
+  -webkit-font-smoothing: subpixel-antialiased;-webkit-text-stroke:1px transparent;
+}
+
+
+
+$COMMONSETTING = array('RANDOMNO' => '310820166' );
+
+<link rel="stylesheet" href="<?php echo $CRMSERVERPATH; ?>css/crm-form.css?<?php echo $COMMONSETTING['RANDOMNO'];?>"> 
+
+
+
+<link href="css/scrollToTop.css?<?php echo $RANDOMNO ?>" rel="stylesheet" >

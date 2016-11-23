@@ -1,0 +1,44 @@
+  <style>
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/vanan-logo.png') 50% 50% no-repeat #006dce;
+}
+.DS-sidefixed-nav{ z-index: 0 !important;}
+</style>
+
+<body>
+  <div class="loader"></div>
+
+
+</body>
+
+
+ <script>
+$(window).one("load", function () {
+	$(".loader").fadeOut("2000");
+   
+})
+</script>
+
+
+
+    <script>
+     
+jQuery(document).ready(function($){
+ 
+if (sessionStorage.getItem('advertOnce') !== 'true') {
+$('body').append('<div class="loader"></div>')
+
+
+sessionStorage.setItem('advertOnce','true');
+    
+}
+
+});
+      
+</script>

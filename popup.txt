@@ -1,0 +1,59 @@
+
+ <td data-toggle="modal" data-target="#myModalR">SubRip (.srt), Scenarist (.scc), MacCaption (.mcc) and  <a hef="#" style="cursor:pointer;text-decoration:underline;color:#006dce;">Many other</a></td>      
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog rate-popup-box" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title text-center" id="myModalLabel">What do we deliver</h4>
+      </div>
+      <div class="modal-body" style="height: auto;background-color:#f0f0f0;">
+      
+      <div class="row">
+         <div class="col-lg-12">
+          <div class="col-lg-6 rate-popup" >Webcast - Quick time script (.txt)</div>
+          <div class="col-lg-6 rate-popup">Webcast - Flash XML for captionate (.xml)</div>
+          </div>
+          <div class="col-lg-12">
+          <div class="col-lg-6 rate-popup" > spruce STL script ( extended Positioning) (.stl)</div>
+          <div class="col-lg-6 rate-popup">DVD captioning file (.scc)</div>
+          </div>
+          <div class="col-lg-12">
+          <div class="col-lg-6 rate-popup" >caption center (.tds)</div>
+          <div class="col-lg-6 rate-popup">Webcast - DFXP without header (.dfxp) </div>
+          </div>
+          <div class="col-lg-12">
+          <div class="col-lg-6 rate-popup" >Avid caption only AAF (.aaf) </div>
+          <div class="col-lg-6 rate-popup">CPC/LeapFrogccaption (.onl) </div>
+          </div>
+          
+          <div class="col-lg-12">
+          <div class="col-lg-6 rate-popup" >DVD captioning file (.cc) </div>
+          <div class="col-lg-6 rate-popup">.ASS </div>
+          </div>
+          <div class="col-lg-12">
+          <div class="col-lg-6 rate-popup" >.SSA </div>
+          <div class="col-lg-6 rate-popup">HTML 5 SMIL/Timesheet </div>
+          </div>
+          <div class="col-lg-12">
+          <div class="col-lg-6 rate-popup" >Ultech ULT Caption (multilaungaug merge)(.ult)</div>
+          <div class="col-lg-6 rate-popup">Cheetah caption (.cap) </div>
+          </div>
+          <div class="col-lg-12">
+          <div class="col-lg-12 rate-popup">SAMI (windows media) and more custom formats.</div>
+          </div>
+      </div>
+          
+          
+      </div>
+
+      </div>
+    </div>
+  </div>

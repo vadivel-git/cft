@@ -1,0 +1,9 @@
+normal view hover
+----------------
+.dropdown:hover .dropdown-menu{display:block}
+
+
+
+mobile view click open
+-----------------
+.dropdown-menu{display: none !important}.open .dropdown-menu{display: block !important}

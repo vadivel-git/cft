@@ -1,0 +1,7 @@
+//hide show
+ $('#text-click').click(function () {
+   $('#para-toggle').toggle(800);
+ });
+
+<a id="text-click">industries</a>
+<p class="text-muted vd-para" id="para-toggle" style="display:none">Hide Its unprecedented</p>

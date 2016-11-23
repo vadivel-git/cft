@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+  <style type="text/css">#tags {
+    width:100%
+}</style>
+</head>
+
+<body>
+
+<div class="container">
+ 
+
+ <select id="tags" multiple="multiple">
+    <option >Kerry</option>
+    <option >Cork</option>
+        <option >Kerry34</option>
+    <option >Cork2</option>
+        <option >Kerry2</option>
+    <option >Cork3</option>
+        <option >Kerry3</option>
+    <option >Cork4</option>
+        <option >Add Lnaguage</option>
+</select>
+
+</div>
+<script>
+$('#tags').select2({
+
+    tags: true,
+    tokenSeparators: [','], 
+    placeholder: "Add your tags here"
+});
+</script>
+
+</body>
+</html>

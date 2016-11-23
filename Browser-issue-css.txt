@@ -1,0 +1,22 @@
+Safri Browser font css
+===========================
+body{
+-webkit-font-smoothing: subpixel-antialiased;
+-webkit-text-stroke:1px transparent;
+}
+
+form select arrow cart css
+===========================
+form-group plain-select --- added
+form-control plain-select --- added
+
+/*plain select*/
+.plain-select{vertical-align:middle;position:relative}
+.plain-select select{line-height:normal;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;border-radius:6px;display:block;width:100%;border:1px solid #c8c8c8;color:#9f9f9f;padding:4px 20px 7px 10px;margin:0;line-height:normal;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:4px}
+.ie8 .plain-select select{padding-right:3px}
+.plain-select select:focus{background:#f9f9f9;outline:none;box-shadow:0 0 10px rgba(0,0,0,0.3),inset 0 0 7px rgba(100,100,100,0.3);border-color:#00c0f3}
+.plain-select::-ms-expand{display:none}
+.plain-select:after{content:"";position:absolute;z-index:2;right:25px;top:auto;bottom: 13px;margin-top:0;height:0;width:0;border-top:5px solid #a2a2a2;border-left:4px solid transparent;border-right:4px solid transparent;pointer-events:none}
+/*plain select*/
+
+

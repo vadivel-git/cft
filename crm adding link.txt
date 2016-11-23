@@ -1,0 +1,28 @@
+   <div id="form_box">
+              
+          <?php 
+
+              $redirect_file_content = '';
+                echo $redirect_file_content = file_get_contents('http://vananhost.com/vanancrm/get-quote-form.php?service_type=typing');
+                    $CRMFORM ="1";
+                    
+             ?>
+          
+   
+ </div>     
+
+
+<?php if(!isset($CRMFORM)) { ?>  <script src="js/bootstrap.min.js"> </script> 
+<?php } ?>
+
+
+
+CRM Process
+
+1.Save the Copy Of old File as bk1.php(Non Crm)
+2.Save the Same as bk2.php(CRM)
+3.Paste the Php link in to the bk2.php file
+4.replace the Bootstrap.min php link in foooter
+5.Paste the Old and New upload files 
+6.Do the New upload for CRM File and old Upload for Non CRM file
+ 

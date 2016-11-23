@@ -1,0 +1,140 @@
+        <div class="row">
+            <div class="form-group col-sm-12">
+                <div class="accordion_container" style="border:none">
+                    <div class="accordion_head"> <span class="plusminus">+</span> Need your Files Soon? Tell us some additional information.</div>
+                    <div class="accordion_body" style="display: none;">
+                        <div class="row SYM-row-reduse">
+                            <div class="SYM-clrar-20"></div>
+                            <div class="form-group SYM-contact-left">
+                                <label class="control-label">Turnaround Time</label>
+                                <div class="controls">
+                                    <div class="input-group"> <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                                        <div id="datetimepicker1"> <span class="add-on">
+
+<input data-format="dd/MM/yyyy" id="qtat" placeholder="Pick the Date" class="" style="margin-bottom:0px; width: 100%; padding: 6px 12px;" type="text"></span> </div>
+                                    </div>
+                                </div>
+                                <script type="text/javascript">
+                                    $(function () {
+                                        $('#datetimepicker1').datetimepicker({
+                                            language: 'pt-BR'
+                                        }).on('changeDate', function (e) {
+                                            $(this).datetimepicker('hide');
+                                        });
+                                    });
+                                    $("#datetimepicker").data('datetimepicker').setLocalDate(new Date(year, month, day, 00, 01));
+                                </script>
+                                <script type="text/javascript">
+                                    $(function () {
+                                        $('#datetimepicker1').datetimepicker({
+                                            startDate: new Date(datetime)
+                                        , }).on('changeDate', function (e) {
+                                            $(this).datetimepicker('hide');
+                                        });
+                                    });
+                                    $('#qtat').click(function () {
+                                        var headerHeight = $('#fileuploadfield').css('height');
+                                        headerHeight = (parseInt(headerHeight) - 20) + 'px';
+                                        $('.dropdown-menu').css("margin-top", headerHeight);
+                                    });
+                                    $("#datetimepicker").data('datetimepicker').setLocalDate(new Date(year, month, day, 00, 01));
+                                </script>
+                            </div>
+                            <style type="text/css">
+                                .accordion_body {
+                                    background-color: #fff;
+                                }
+                                
+                                .accordion_head {
+                                    box-shadow: none;
+                                    background: #fff;
+                                    font-weight: normal;
+                                    color: #126AA2;
+                                }
+                                
+                                .plusminus {
+                                    line-height: 20px;
+                                    float: left;
+                                    margin: 0px 10px;
+                                    border-radius: 50%;
+                                    background: #579F37;
+                                    color: White;
+                                    font-size: 14px;
+                                    height: 20px;
+                                    text-align: center;
+                                    width: 20px;
+                                    font-weight: bold;
+                                }
+                            </style>
+                            <div class="form-group SYM-contact-right">
+                                <!-- block1 -->
+                                <div class="form-group">
+                                    <label class="control-label">Purpose</label>
+                                    <div class="controls">
+                                        <div class="input-group">
+                                            <!--   <span class="input-group-addon"><i class="fa fa-question-circle"></i></span> --><span class="input-group-addon">
+
+
+
+                <div class="wrapper">
+
+
+
+                <i class="fa fa-question-circle"></i>
+
+                <div class="tooltip"> Choose the purpose of translation for<br>(eg).Academic,Certificate,immigration,<br>Major needs etc..</div>
+
+
+
+
+
+                </div>
+
+
+
+                </span>
+                                            <input class="form-control" id="qpurpose" placeholder="Eg: Immigration, Legal, etc." type="text">
+                                            <!-- Select -->
+                                            <!--select id="qservice" class="form-control">
+
+                                             <option value="">Select</option>
+
+                                             <option value="Audio/Video">Audio/Video</option>
+
+                                            <option value="Book">Book</option>
+
+                                            <option value="Certified">Certified</option>
+
+                                            <option value="Certificate">Certificate</option>
+
+                                            <option value="Document">Document</option>
+
+
+
+
+
+                                            <option value="Immigration">Immigration</option>
+
+                                            <option value="Others">Others</option>
+
+                                        </select-->
+                                            <!-- Select -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="SYM-clrar-20"></div>
+                        <div class="SYM-clrar-20"></div>
+                        <div class="form-group ">
+                            <label class="control-label">Comment</label>
+                            <div class="controls">
+                                <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                    <textarea name="msg" class="form-control " id="qcomment" rows="4" cols="78" placeholder="Enter your Comment here"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

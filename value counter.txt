@@ -1,0 +1,28 @@
+<script>
+      
+
+    
+ $(window).scroll(startCounter);
+function startCounter() {
+    if ($(window).scrollTop() > 500) {
+        $(window).off("scroll", startCounter);
+        $('.count').each(function () {
+           $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+                duration: 4000,
+                easing: 'swing',
+               step: function (now) {
+            $(this).text(Math.ceil(now));
+                }
+            });
+        });
+    }
+}
+      </script>
+
+
+
+add the line
+---------
+<span class="count"> value </span>
